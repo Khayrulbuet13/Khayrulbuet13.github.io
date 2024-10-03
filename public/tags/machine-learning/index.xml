@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine Learning on Khayrul Islam</title>
-    <link>https://Khayrulbuet13.github.io/tags/machine-learning/</link>
+    <link>https://khayrul.me/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Khayrul Islam</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Khayrulbuet13.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://khayrul.me/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transformer-Based Trajectory Prediction in Microfluidics</title>
-      <link>https://Khayrulbuet13.github.io/projects/projects5/</link>
+      <link>https://khayrul.me/projects/projects5/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://Khayrulbuet13.github.io/projects/projects5/</guid>
+      <guid>https://khayrul.me/projects/projects5/</guid>
       <description>Developing a Transformer-based machine learning model to predict cell trajectories in microfluidics, aiding in the optimization of deterministic lateral displacement (DLD) device designs.</description>
     </item>
   </channel>

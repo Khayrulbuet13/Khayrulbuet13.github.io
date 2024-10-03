@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rapid Prototyping on Khayrul Islam</title>
-    <link>https://Khayrulbuet13.github.io/tags/rapid-prototyping/</link>
+    <link>https://khayrul.me/tags/rapid-prototyping/</link>
     <description>Recent content in Rapid Prototyping on Khayrul Islam</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Khayrulbuet13.github.io/tags/rapid-prototyping/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://khayrul.me/tags/rapid-prototyping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rapid prototyping of high-resolution large format microfluidic device through maskless image guided in-situ photopolymerization</title>
-      <link>https://Khayrulbuet13.github.io/papers/paper7/</link>
+      <link>https://khayrul.me/papers/paper7/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://Khayrulbuet13.github.io/papers/paper7/</guid>
+      <guid>https://khayrul.me/papers/paper7/</guid>
       <description>This paper introduces image-guided in-situ maskless lithography (IGIs-ML) for rapid prototyping of high-resolution microfluidic devices, enhancing affordability and efficiency in device fabrication.</description>
     </item>
   </channel>

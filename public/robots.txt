@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://Khayrulbuet13.github.io/sitemap.xml
+Sitemap: https://khayrul.me/sitemap.xml

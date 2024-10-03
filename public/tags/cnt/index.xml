@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CNT on Khayrul Islam</title>
-    <link>https://Khayrulbuet13.github.io/tags/cnt/</link>
+    <link>https://khayrul.me/tags/cnt/</link>
     <description>Recent content in CNT on Khayrul Islam</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Khayrulbuet13.github.io/tags/cnt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://khayrul.me/tags/cnt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tailoring polyamide nanocomposites: The synergistic effects of SWCNT chirality and maleic anhydride grafting</title>
-      <link>https://Khayrulbuet13.github.io/papers/paper11/</link>
+      <link>https://khayrul.me/papers/paper11/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://Khayrulbuet13.github.io/papers/paper11/</guid>
+      <guid>https://khayrul.me/papers/paper11/</guid>
       <description>This paper investigates the synergistic effects of SWCNT chirality and maleic anhydride grafting using molecular dynamics simulations to improve the mechanical properties of polyamide nanocomposites.</description>
     </item>
     <item>
       <title>Molecular dynamics simulation of the mechanical properties of CNT-polyoxymethylene composite with a reactive forcefield</title>
-      <link>https://Khayrulbuet13.github.io/papers/paper1/</link>
+      <link>https://khayrul.me/papers/paper1/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://Khayrulbuet13.github.io/papers/paper1/</guid>
+      <guid>https://khayrul.me/papers/paper1/</guid>
       <description>This paper applies reactive force field molecular dynamics simulations to study the effect of SWCNTs on the mechanical properties of polyoxymethylene (POM) composites.</description>
     </item>
   </channel>

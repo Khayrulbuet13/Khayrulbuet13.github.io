@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vascular Barrier Function on Khayrul Islam</title>
-    <link>https://Khayrulbuet13.github.io/tags/vascular-barrier-function/</link>
+    <link>https://khayrul.me/tags/vascular-barrier-function/</link>
     <description>Recent content in Vascular Barrier Function on Khayrul Islam</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Khayrulbuet13.github.io/tags/vascular-barrier-function/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://khayrul.me/tags/vascular-barrier-function/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acoustofluidic engineering of functional vessel-on-a-chip</title>
-      <link>https://Khayrulbuet13.github.io/papers/paper8/</link>
+      <link>https://khayrul.me/papers/paper8/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://Khayrulbuet13.github.io/papers/paper8/</guid>
+      <guid>https://khayrul.me/papers/paper8/</guid>
       <description>This paper uses standing surface acoustic waves to pattern endothelial cells into designated geometries, engineering functional vessel networks on-chip with high resolution for vascular research and regenerative therapy.</description>
     </item>
   </channel>
