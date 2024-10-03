@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nanofluidic Channels on Khayrul Islam</title>
+    <link>https://Khayrulbuet13.github.io/tags/nanofluidic-channels/</link>
+    <description>Recent content in Nanofluidic Channels on Khayrul Islam</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Khayrulbuet13.github.io/tags/nanofluidic-channels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coarse-grained molecular simulation of extracellular vesicle squeezing for drug loading</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper5/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper5/</guid>
+      <description>This paper uses coarse-grained molecular dynamics to simulate nanopore formation in extracellular vesicles (EVs), providing guidelines for optimizing drug loading efficiency without damaging the EVs.</description>
+    </item>
+  </channel>
+</rss>

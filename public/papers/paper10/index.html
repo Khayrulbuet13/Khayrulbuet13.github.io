@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells | Khayrul Islam</title>
+<meta name="keywords" content="cancer immunotherapy, microfluidics, tumor microphysiology, vascular transport, vessel-tumor-on-chips">
+<meta name="description" content="This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction.">
+<meta name="author" content="Yuwen Zhao,&thinsp;Yue Wu,&thinsp;Khayrul Islam,&thinsp;Ratul Paul,&thinsp;Yuyuan Zhou,&thinsp;Xiaochen Qin,&thinsp;Qiying Li,&thinsp;Yaling Liu">
+<link rel="canonical" href="https://Khayrulbuet13.github.io/papers/paper10/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a422b53ecc1042ccb05fd7f6c6721635695f2203f0568cc373ff83fcf3ef1ffc.css" integrity="sha256-pCK1PswQQsywX9f2xnIWNWlfIgPwVozDc/&#43;D/PPvH/w=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://Khayrulbuet13.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://Khayrulbuet13.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://Khayrulbuet13.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://Khayrulbuet13.github.io/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://Khayrulbuet13.github.io/papers/paper10/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells" />
+<meta property="og:description" content="This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Khayrulbuet13.github.io/papers/paper10/" />
+<meta property="og:image" content="https://Khayrulbuet13.github.io/paper10.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2024-04-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-10-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://Khayrulbuet13.github.io/paper10.png" />
+<meta name="twitter:title" content="Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells"/>
+<meta name="twitter:description" content="This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "https://Khayrulbuet13.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells",
+      "item": "https://Khayrulbuet13.github.io/papers/paper10/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells",
+  "name": "Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells",
+  "description": "This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction.",
+  "keywords": [
+    "cancer immunotherapy", "microfluidics", "tumor microphysiology", "vascular transport", "vessel-tumor-on-chips"
+  ],
+  "articleBody": " Download Paper Supplementary material Abstract Observing and quantifying immune cell transport during cancer immunotherapy remains a challenge in the field. This paper presents an advanced 3D vessel-tumor model to study T cell transport and interaction with tumors in vitro. Using a coarse-grained molecular dynamics model with the Cooke-Deserno membrane representation technique, the study simulated the influence of vascular glycocalyx (VGCX) on ligand-receptor binding between T cells and endothelial cells. Results demonstrated the significant effect of the endothelial glycocalyx on T cell transport and evaluated the impact of PD-1 inhibition on tumor killing. These findings provide critical insights into immune cell transport dynamics during cancer immunotherapy, advancing the understanding of tumor-immune interactions. Figure 1: Microphysiologically engineered vessel-tumor model Citation Zhao, Yuwen, Yue Wu, Khayrul Islam, Ratul Paul, Yuyuan Zhou, Xiaochen Qin, Qiying Li, and Yaling Liu. 2024. “Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells.” ACS Applied Materials \u0026 Interfaces 16 (18): 22839–22849. https://pubs.acs.org/doi/full/10.1021/acsami.4c00391 .\n@article{Zhao24, author = {Yuwen Zhao, Yue Wu, Khayrul Islam, Ratul Paul, Yuyuan Zhou, Xiaochen Qin, Qiying Li, Yaling Liu}, year = {2024}, title = {Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells}, journal = {ACS Applied Materials \u0026 Interfaces}, volume = {16}, number = {18}, pages = {22839--22849}, doi = {10.1021/acsami.4c00391}, url = {https://pubs.acs.org/doi/full/10.1021/acsami.4c00391}} ",
+  "wordCount" : "216",
+  "inLanguage": "en",
+  "image":"https://Khayrulbuet13.github.io/paper10.png","datePublished": "2024-04-23T00:00:00Z",
+  "dateModified": "2024-10-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Yuwen Zhao"
+  }, {
+    "@type": "Person",
+    "name": "Yue Wu"
+  }, {
+    "@type": "Person",
+    "name": "Khayrul Islam"
+  }, {
+    "@type": "Person",
+    "name": "Ratul Paul"
+  }, {
+    "@type": "Person",
+    "name": "Yuyuan Zhou"
+  }, {
+    "@type": "Person",
+    "name": "Xiaochen Qin"
+  }, {
+    "@type": "Person",
+    "name": "Qiying Li"
+  }, {
+    "@type": "Person",
+    "name": "Yaling Liu"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Khayrulbuet13.github.io/papers/paper10/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Khayrul Islam",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Khayrulbuet13.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://Khayrulbuet13.github.io/" accesskey="h" title="Khayrul Islam">
+                <img src="https://Khayrulbuet13.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Khayrul Islam</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://Khayrulbuet13.github.io/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Khayrulbuet13.github.io/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@khayrul-rules" title="Blog">
+                    <span>Blog</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://Khayrulbuet13.github.io/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells
+    </h1>
+    <div class="post-meta"><span title='2024-04-23 00:00:00 +0000 UTC'>April 2024</span>&nbsp;&middot;&nbsp;Yuwen Zhao,&thinsp;Yue Wu,&thinsp;Khayrul Islam,&thinsp;Ratul Paul,&thinsp;Yuyuan Zhou,&thinsp;Xiaochen Qin,&thinsp;Qiying Li,&thinsp;Yaling Liu&nbsp;&middot;&nbsp;<a href="https://pubs.acs.org/doi/full/10.1021/acsami.4c00391" rel="noopener noreferrer" target="_blank">View Online</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="paper10.pdf">Paper</a>
+</li>
+<li><a href="appendix10.pdf">Supplementary material</a>
+</li>
+</ul>
+<!-- + [Code and data](https://github.com/khayrulbuet13/vessel-tumor-immune-transport) -->
+<hr>
+<h5 id="abstract">Abstract</h5>
+<div class="justify-text">
+Observing and quantifying immune cell transport during cancer immunotherapy remains a challenge in the field. This paper presents an advanced 3D vessel-tumor model to study T cell transport and interaction with tumors in vitro. Using a coarse-grained molecular dynamics model with the Cooke-Deserno membrane representation technique, the study simulated the influence of vascular glycocalyx (VGCX) on ligand-receptor binding between T cells and endothelial cells. Results demonstrated the significant effect of the endothelial glycocalyx on T cell transport and evaluated the impact of PD-1 inhibition on tumor killing. These findings provide critical insights into immune cell transport dynamics during cancer immunotherapy, advancing the understanding of tumor-immune interactions.
+</div>
+<hr>
+<h5 id="figure-1-microphysiologically-engineered-vessel-tumor-model">Figure 1: Microphysiologically engineered vessel-tumor model</h5>
+<p><img loading="lazy" src="paper10.png" alt="Microphysiologically engineered vessel-tumor model"  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Zhao, Yuwen, Yue Wu, Khayrul Islam, Ratul Paul, Yuyuan Zhou, Xiaochen Qin, Qiying Li, and Yaling Liu. 2024. &ldquo;Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells.&rdquo; <em>ACS Applied Materials &amp; Interfaces</em> 16 (18): 22839–22849. <a href="https://pubs.acs.org/doi/full/10.1021/acsami.4c00391" target="_blank">https://pubs.acs.org/doi/full/10.1021/acsami.4c00391</a>
+.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{Zhao24,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">author</span> = <span style="color:#a50">{Yuwen Zhao, Yue Wu, Khayrul Islam, Ratul Paul, Yuyuan Zhou, Xiaochen Qin, Qiying Li, Yaling Liu}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">year</span> = <span style="color:#a50">{2024}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">title</span> = <span style="color:#a50">{Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">journal</span> = <span style="color:#a50">{ACS Applied Materials &amp; Interfaces}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">volume</span> = <span style="color:#a50">{16}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">number</span> = <span style="color:#a50">{18}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">pages</span> = <span style="color:#a50">{22839--22849}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">doi</span> = <span style="color:#a50">{10.1021/acsami.4c00391}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">url</span> = <span style="color:#a50">{https://pubs.acs.org/doi/full/10.1021/acsami.4c00391}</span>}
+</span></span></code></pre></div><hr>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://Khayrulbuet13.github.io/tags/cancer-immunotherapy/">Cancer Immunotherapy</a></li>
+      <li><a href="https://Khayrulbuet13.github.io/tags/microfluidics/">Microfluidics</a></li>
+      <li><a href="https://Khayrulbuet13.github.io/tags/tumor-microphysiology/">Tumor Microphysiology</a></li>
+      <li><a href="https://Khayrulbuet13.github.io/tags/vascular-transport/">Vascular Transport</a></li>
+      <li><a href="https://Khayrulbuet13.github.io/tags/vessel-tumor-on-chips/">Vessel-Tumor-on-Chips</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://Khayrulbuet13.github.io/">Khayrul Islam</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

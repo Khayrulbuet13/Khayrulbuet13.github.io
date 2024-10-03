@@ -1,0 +1,101 @@
+.main {
+    position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: var(--gap);
+}
+
+.page-header h1 {
+    font-size: var(--h1size);
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: var(--theme);
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
+
+.social-icons a {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
+}
+
+.social-icons a:hover {
+    color: var(--darkcolor);
+}
+
+code {
+    direction: ltr;
+}
+
+code {
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(78, 78, 78, 0.8);
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: block;
+}
+
+a[href*="bionano"] {
+    color: rgb(248, 144, 103);
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;  /* Vertically centers the content */
+    align-items: flex-start;  /* Keeps the content left-aligned */
+    height: 30vh;  /* Adjusts the height for vertical centering */
+    flex-direction: column;  /* Ensures content stacks vertically */
+    width: 100%;  /* Ensures the content spans full width */
+}
+
+.center-content h1 {
+    text-align: left; /* Ensures the heading is left-aligned */
+    width: 100%;  /* Makes the heading take up the full width of the parent container */
+    padding-left: 0;  /* Removes any extra left padding */
+}
+
+  

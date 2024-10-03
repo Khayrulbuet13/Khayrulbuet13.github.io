@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tumor Microphysiology on Khayrul Islam</title>
+    <link>https://Khayrulbuet13.github.io/tags/tumor-microphysiology/</link>
+    <description>Recent content in Tumor Microphysiology on Khayrul Islam</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Khayrulbuet13.github.io/tags/tumor-microphysiology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper10/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper10/</guid>
+      <description>This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction.</description>
+    </item>
+  </channel>
+</rss>

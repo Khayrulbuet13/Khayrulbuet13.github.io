@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Color Prediction on Khayrul Islam</title>
+    <link>https://Khayrulbuet13.github.io/tags/color-prediction/</link>
+    <description>Recent content in Color Prediction on Khayrul Islam</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Khayrulbuet13.github.io/tags/color-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colour Consumption Algorithm for Thanbee Printing Plant Ltd</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects3/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects3/</guid>
+      <description>Developed a full-phase algorithm to predict color consumption with over 99.5% accuracy for Thanbee Printing Plant Ltd&amp;#39;s T-shirt printing operations.</description>
+    </item>
+  </channel>
+</rss>

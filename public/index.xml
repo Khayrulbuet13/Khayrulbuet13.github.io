@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Khayrul Islam</title>
+    <link>https://Khayrulbuet13.github.io/</link>
+    <description>Recent content on Khayrul Islam</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Khayrulbuet13.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Md Khayrul Islam - CV</title>
+      <link>https://Khayrulbuet13.github.io/cv/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/cv/</guid>
+      <description>Md Khayrul Islam&amp;rsquo;s Interactive CV</description>
+    </item>
+    <item>
+      <title>MIML: Multiplex Image Machine Learning for High Precision Cell Classification via Mechanical Traits within Microfluidic Systems</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper12/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper12/</guid>
+      <description>This paper introduces the MIML framework that combines label-free cell images with biomechanical data to achieve high precision in cell classification, improving specificity for white blood and tumor cells.</description>
+    </item>
+    <item>
+      <title>Tailoring polyamide nanocomposites: The synergistic effects of SWCNT chirality and maleic anhydride grafting</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper11/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper11/</guid>
+      <description>This paper investigates the synergistic effects of SWCNT chirality and maleic anhydride grafting using molecular dynamics simulations to improve the mechanical properties of polyamide nanocomposites.</description>
+    </item>
+    <item>
+      <title>Location</title>
+      <link>https://Khayrulbuet13.github.io/location/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/location/</guid>
+      <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
+    </item>
+    <item>
+      <title>Office Hours</title>
+      <link>https://Khayrulbuet13.github.io/officehours/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/officehours/</guid>
+      <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
+    </item>
+    <item>
+      <title>Microphysiologically engineered vessel-tumor model to investigate vascular transport dynamics of immune cells</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper10/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper10/</guid>
+      <description>This paper develops a 3D vessel-tumor model to study immune cell transport during cancer immunotherapy, providing insights into the effects of the endothelial glycocalyx and PD-1 inhibition on T cell transport and tumor interaction.</description>
+    </item>
+    <item>
+      <title>Deep learning-based predictive classification of functional subpopulations of hematopoietic stem cells and multipotent progenitors</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper9/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper9/</guid>
+      <description>This paper employs deep learning to classify murine hematopoietic stem cells (HSCs) and multipotent progenitors (MPPs) using light microscopy images without markers, enabling rapid assessment of cell types and functional states.</description>
+    </item>
+    <item>
+      <title>Lymphocyte Cell Classification using Knowledge Distillation and Transfer Learning</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects4/</guid>
+      <description>Developing an efficient model for lymphocyte cell classification using Knowledge Distillation and Transfer Learning, with real-time deployment on FPGA for T-cell detection.</description>
+    </item>
+    <item>
+      <title>Acoustofluidic engineering of functional vessel-on-a-chip</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper8/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper8/</guid>
+      <description>This paper uses standing surface acoustic waves to pattern endothelial cells into designated geometries, engineering functional vessel networks on-chip with high resolution for vascular research and regenerative therapy.</description>
+    </item>
+    <item>
+      <title>Rapid prototyping of high-resolution large format microfluidic device through maskless image guided in-situ photopolymerization</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper7/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper7/</guid>
+      <description>This paper introduces image-guided in-situ maskless lithography (IGIs-ML) for rapid prototyping of high-resolution microfluidic devices, enhancing affordability and efficiency in device fabrication.</description>
+    </item>
+    <item>
+      <title>An atomistic study of the tensile deformation of carbon nanotube-polymethylmethacrylate composites</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper6/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper6/</guid>
+      <description>This paper uses reactive force field molecular dynamics simulations to study the mechanical properties of SWCNT-reinforced PMMA composites, showing enhancements with varying CNT diameters and volume fractions.</description>
+    </item>
+    <item>
+      <title>Transformer-Based Trajectory Prediction in Microfluidics</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects5/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects5/</guid>
+      <description>Developing a Transformer-based machine learning model to predict cell trajectories in microfluidics, aiding in the optimization of deterministic lateral displacement (DLD) device designs.</description>
+    </item>
+    <item>
+      <title>Coarse-grained molecular simulation of extracellular vesicle squeezing for drug loading</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper5/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper5/</guid>
+      <description>This paper uses coarse-grained molecular dynamics to simulate nanopore formation in extracellular vesicles (EVs), providing guidelines for optimizing drug loading efficiency without damaging the EVs.</description>
+    </item>
+    <item>
+      <title>Microfluidic droplet-assisted fabrication of vessel-supported tumors for preclinical drug discovery</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper4/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper4/</guid>
+      <description>This paper develops an integrated system using microfluidic droplets to create vessel-supported tumors that mimic the natural tumor microenvironment, improving preclinical drug screening.</description>
+    </item>
+    <item>
+      <title>Adaptable microfluidic vessel-on-a-chip platform for investigating tumor metastatic transport in bloodstream</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper3/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper3/</guid>
+      <description>This paper develops an adaptable microfluidic vessel-on-a-chip platform to simulate key metastatic steps and varied microenvironments, offering insights into anticancer therapy development.</description>
+    </item>
+    <item>
+      <title>Respiratory droplet resuspension near surfaces: Modeling and analysis</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper2/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper2/</guid>
+      <description>This paper develops a 3D two-phase model to study respiratory droplet resuspension dynamics due to sudden agitation, providing insights into reducing COVID-19 transmission risks.</description>
+    </item>
+    <item>
+      <title>Molecular dynamics simulation of the mechanical properties of CNT-polyoxymethylene composite with a reactive forcefield</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper1/</guid>
+      <description>This paper applies reactive force field molecular dynamics simulations to study the effect of SWCNTs on the mechanical properties of polyoxymethylene (POM) composites.</description>
+    </item>
+    <item>
+      <title>Line Balancing Algorithm for RMG Sector in Bangladesh</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects1/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects1/</guid>
+      <description>Developed an Excel VBA-based line balancing algorithm for the RMG sector to optimize production efficiency.</description>
+    </item>
+    <item>
+      <title>Colour Consumption Algorithm for Thanbee Printing Plant Ltd</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects3/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects3/</guid>
+      <description>Developed a full-phase algorithm to predict color consumption with over 99.5% accuracy for Thanbee Printing Plant Ltd&amp;#39;s T-shirt printing operations.</description>
+    </item>
+    <item>
+      <title>Particle Sifting Machine</title>
+      <link>https://Khayrulbuet13.github.io/projects/projects2/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/projects/projects2/</guid>
+      <description>Designed and built a particle sifting machine as a course project, now used by Bangladesh University of Engineering and Technology (BUET) Foundry Lab for mold sand preparation.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://Khayrulbuet13.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/contact/</guid>
+      <description>Feel free to reach out to me!</description>
+    </item>
+  </channel>
+</rss>

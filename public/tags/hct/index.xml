@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HCT on Khayrul Islam</title>
+    <link>https://Khayrulbuet13.github.io/tags/hct/</link>
+    <description>Recent content in HCT on Khayrul Islam</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Khayrulbuet13.github.io/tags/hct/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIML: Multiplex Image Machine Learning for High Precision Cell Classification via Mechanical Traits within Microfluidic Systems</title>
+      <link>https://Khayrulbuet13.github.io/papers/paper12/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://Khayrulbuet13.github.io/papers/paper12/</guid>
+      <description>This paper introduces the MIML framework that combines label-free cell images with biomechanical data to achieve high precision in cell classification, improving specificity for white blood and tumor cells.</description>
+    </item>
+  </channel>
+</rss>

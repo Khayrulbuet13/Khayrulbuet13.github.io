@@ -1,0 +1,120 @@
+baseURL: "https://Khayrulbuet13.github.io/"
+title: Khayrul Islam # copyright of the website
+pagination:
+  pagerSize: 20
+
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Projects
+          url: projects/
+          weight: 5 
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Blog
+          url: https://medium.com/@khayrul-rules
+          weight: 6
+        - name: Contact
+          url: contact/
+
+params:
+    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
+    author: Khayrul Islam
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Khayrul Islam # Bold name on homepage
+          subtitle: "I am a Ph.D. candidate in Mechanical Engineering at Lehigh University, working as a Graduate Research Assistant at the [Bio-Nano Interface Lab](https://wordpress.lehigh.edu/bionano/). My work focuses on machine learning-based microfluidic computer vision and design optimization. As I get closer to my graduation in May 2025, I am enthusiastic about finding opportunities to apply my skills and make meaningful contributions to future innovations."
+          imageUrl: "Khayrul.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Khayrul #Moritz-Maria von Igelfeld
+          buttons:
+            # - name: CV
+            #   url: CV.pdf
+            - name: Papers
+              url: papers/
+            - name: Projects
+              url: projects/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+            - name: Blog
+              url: https://medium.com/@khayrul-rules
+              weight: 6
+              target: "_blank"
+            - name: Contact
+              url: contact/
+
+    socialIcons:
+        - name: CV
+          url: CV.pdf
+        - name: Email
+          url: mailto:khayrulbuet13@alum.lehigh.edu
+        - name: Zoom
+          url: https://lehigh.zoom.us/my/khayrulbuet13
+        - name: Location
+          url: https://www.google.com/maps/place/Bethlehem,+PA/@40.6251367,-75.5219132,12z/data=!3m1!4b1!4m6!3m5!1s0x89c43e4acc94c115:0x4ec59c491c91b283!8m2!3d40.6259316!4d-75.3704579!16zL20vMDEza3N4?entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D
+        # - name: Office Hours
+        #   url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?hl=en&authuser=1&user=8brPneYAAAAJ
+        - name: GitHub
+          url: https://github.com/khayrulbuet13
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/khayrulbuet13/
+        - name: Medium
+          url: https://medium.com/@khayrul-rules
+        # - name: Twitter
+        #   url: https://twitter.com/McCallSmith
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Khayrul Islam"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
