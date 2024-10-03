@@ -13,15 +13,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Projects
-          url: projects/
-          weight: 5 
+        - name: AskKhayrul Chatbot
+          url: https://chat.khayrul.me/
+          weight: 0
         - name: Papers
           url: papers/
           weight: 2
+        - name: Projects
+          url: projects/
+          weight: 4
         - name: Blog
           url: https://medium.com/@khayrul-rules
-          weight: 6
+          target: "_blank"
         - name: Contact
           url: contact/
 
@@ -60,6 +63,10 @@ params:
           buttons:
             # - name: CV
             #   url: CV.pdf
+            - name: AskKhayrul Chatbot
+              url: https://chat.khayrul.me/
+              weight: 7
+              target: "_blank"
             - name: Papers
               url: papers/
             - name: Projects
@@ -74,6 +81,7 @@ params:
               target: "_blank"
             - name: Contact
               url: contact/
+            
 
     socialIcons:
         - name: CV
