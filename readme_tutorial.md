@@ -107,20 +107,33 @@ Static files (images, PDFs, etc.) that are not associated with specific content 
 - **Profile Picture**: Replace `static/Khayrul.jpg` with your updated photo
 - **Favicon**: Update favicon files in the `static/` directory if needed
 
+## Managing Development vs. Production URLs
+
+When working with Hugo, it's important to understand how the site handles URLs:
+
+1. **Development Mode**: When you run `hugo server`, Hugo uses a localhost URL (e.g., `http://localhost:1313`) for all links and resources.
+   - This is perfect for local testing but should never be pushed to production.
+
+2. **Production Mode**: When building for production, you must ensure all URLs point to your actual domain.
+   - The GitHub Actions workflow handles this automatically for deployment.
+
+> **IMPORTANT**: Never commit the `public/` directory to git. It's listed in `.gitignore` for a reason!
+
 ## Compiling and Deploying
 
 Once you're satisfied with your changes:
 
-1. **Compile the website**:
+1. **Compile the website locally** (if needed for testing):
    ```bash
-   hugo
+   hugo --minify --baseURL "https://khayrul.me/"
    ```
-   This will generate the static website in the `public/` directory.
+   This will generate the static website in the `public/` directory with the correct production URLs.
 
 2. **Commit and push your changes**:
    
    Using Git:
    ```bash
+   # Make sure you're not inadvertently including public/ files
    git add .
    git commit -m "Update website content"
    git push origin main
@@ -128,13 +141,27 @@ Once you're satisfied with your changes:
    
    Or using GitHub Desktop:
    - Open GitHub Desktop
-   - Review your changes
+   - Review your changes (make sure public/ files aren't included)
    - Add a commit message
    - Click "Commit to main"
    - Click "Push origin"
 
 3. **Deployment**:
    The website will be automatically built and deployed to GitHub Pages via the GitHub Action configured in `.github/workflows/hugo.yml`.
+
+### Fixing Accidentally Committed Public Directory
+
+If you accidentally commit the `public/` directory with localhost URLs, you can fix it with:
+
+```bash
+# Remove public directory from git tracking (keeps the files on your system)
+git rm -r --cached public
+# Ensure public/ is in your .gitignore file
+echo "public/" >> .gitignore
+# Commit and push this change
+git commit -m "Remove public folder from git tracking and add it to .gitignore"
+git push
+```
 
 ## Troubleshooting
 
