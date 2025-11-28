@@ -21,6 +21,10 @@
     font-size: 40px;
 }
 
+.profile .profile_inner > span {
+    text-align: justify;
+}
+
 .profile img {
     border-radius: 50%;
 }

@@ -13,9 +13,6 @@ taxonomies:
 
 menu:
     main:
-        - name: AskKhayrul Chatbot
-          url: https://chat.khayrul.me/
-          weight: 0
         - name: Papers
           url: papers/
           weight: 2
@@ -29,7 +26,7 @@ menu:
           url: contact/
 
 params:
-    description: "I am a Ph.D. candidate in Mechanical Engineering at Lehigh University, working as a Graduate Research Assistant at Bio-Nano Interface Lab. My work focuses on machine learning-based microfluidic computer vision and design optimization. As I get closer to my graduation in May 2025, I am enthusiastic about finding opportunities to apply my skills and make meaningful contributions to future innovations."
+    description: "I'm a Postdoctoral Researcher at Lawrence Livermore National Laboratory (LLNL), working with the Nuclear Fusion Signal Processing and Control group on computer vision for real-time diagnostic systems. I enjoy the full CV and ML pipeline, from designing deep learning models to deploying them for high-performance, microsecond-level inference. I earned my Ph.D. in Mechanical Engineering from Lehigh University, where my research focused on machine-learning-based microfluidic computer vision and design optimization. Outside of work, I enjoy hiking, exploring new trails, and watching movies in my free time."
     author: Khayrul Islam
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -55,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Khayrul Islam # Bold name on homepage
-          subtitle: "I am a Ph.D. candidate in Mechanical Engineering at Lehigh University, working as a Graduate Research Assistant at the [Bio-Nano Interface Lab](https://wordpress.lehigh.edu/bionano/). My work focuses on machine learning-based microfluidic computer vision and design optimization. As I get closer to my graduation in May 2025, I am enthusiastic about finding opportunities to apply my skills and make meaningful contributions to future innovations."
+          subtitle: "I'm a Postdoctoral Researcher at [Lawrence Livermore National Laboratory (LLNL)](https://www.llnl.gov/), working with the Nuclear Fusion Signal Processing and Control group on computer vision for real-time diagnostic systems. I enjoy the full CV and ML pipeline, from designing deep learning models to deploying them for high-performance, microsecond-level inference. I earned my Ph.D. in Mechanical Engineering from Lehigh University, where my research focused on machine-learning-based microfluidic computer vision and design optimization. Outside of work, I enjoy hiking, exploring new trails, and watching movies in my free time."
           imageUrl: "Khayrul.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -63,10 +60,6 @@ params:
           buttons:
             # - name: CV
             #   url: CV.pdf
-            - name: AskKhayrul Chatbot
-              url: https://chat.khayrul.me/
-              weight: 7
-              target: "_blank"
             - name: Papers
               url: papers/
             - name: Projects
@@ -85,13 +78,13 @@ params:
 
     socialIcons:
         - name: CV
-          url: CV.pdf
+          url: cv.pdf
         - name: Email
           url: mailto:khayrulbuet13@alum.lehigh.edu
         - name: Zoom
           url: https://lehigh.zoom.us/my/khayrulbuet13
         - name: Location
-          url: https://www.google.com/maps/place/Bethlehem,+PA/@40.6251367,-75.5219132,12z/data=!3m1!4b1!4m6!3m5!1s0x89c43e4acc94c115:0x4ec59c491c91b283!8m2!3d40.6259316!4d-75.3704579!16zL20vMDEza3N4?entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D
+          url: https://www.google.com/maps/place/Livermore,+CA/@37.6818976,-121.8161298,12z/data=!3m1!4b1!4m6!3m5!1s0x808feb0fd87dc827:0xf9e7735f0a9d4127!8m2!3d37.6818745!4d-121.7680257!16zL20vMHBrN3g
         # - name: Office Hours
         #   url: officehours/
         - name: Google Scholar
