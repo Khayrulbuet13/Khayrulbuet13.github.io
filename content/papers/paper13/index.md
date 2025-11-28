@@ -1,6 +1,6 @@
 ---
 title: "Real-Time Cell Sorting with Scalable In Situ FPGA-Accelerated Deep Learning" 
-date: 2025-01-15
+date: 2025-11-24
 tags: ["Deep Learning", "FPGA", "Knowledge Distillation", "Transfer Learning", "Cell Classification", "Machine Learning", "Image Analysis", "Label-Free", "Microfluidics"]
 author: ["Khayrul Islam", "Ryan F. Forelli", "Jianzhong Han", "Deven Bhadane", "Jian Huang", "Joshua C. Agar", "Nhan Tran", "Seda Ogrenci", "Yaling Liu"]
 description: "A label-free machine learning framework for real-time cell classification using bright-field microscopy images, achieving ultra-low 14.5 µs inference latency through FPGA deployment."
