@@ -9,7 +9,7 @@ summary: "This paper presents a novel machine learning framework (MIML) that enh
 cover:
     image: "paper12.png"
     alt: "Multiplex Image Machine Learning (MIML)"
-    relative: false
+    relative: true
 editPost:
     URL: "https://www.nature.com/articles/s41378-025-00874-x"
     Text: "Microsystems & Nanoengineering"

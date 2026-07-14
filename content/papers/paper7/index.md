@@ -9,7 +9,7 @@ summary: "This paper achieves superior repeatability and fidelity in fabricating
 cover:
     image: "paper7.png"
     alt: "Maskless image guided microfluidic prototyping"
-    relative: false
+    relative: true
 editPost:
     URL: "https://www.nature.com/articles/s41467-023-40119-x"
     Text: "View Online"

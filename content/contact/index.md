@@ -16,7 +16,6 @@ Feel free to contact me with any issue or inquiry. I am open to discussing resea
 ### Contact Information
 
 - **Email**: [Khayrulbuet13@alum.lehigh.edu](mailto:Khayrulbuet13@alum.lehigh.edu)
-- **Cell**: +1 484 935 9363
 
 
 

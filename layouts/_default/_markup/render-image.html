@@ -1,0 +1,38 @@
+{{- $dest := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+{{- if or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") -}}
+<img src="{{ $dest | safeURL }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" style="max-width:100%;height:auto;">
+{{- else -}}
+{{- $res := .Page.Resources.GetMatch $dest -}}
+{{- if $res -}}
+  {{- $ext := $res.MediaType.SubType | lower -}}
+  {{- $processable := slice "jpg" "jpeg" "png" "tif" "bmp" -}}
+  {{- if hugo.IsExtended -}}{{- $processable = $processable | append "webp" -}}{{- end -}}
+  {{- if and (in $processable $ext) (hugo.IsProduction | or (eq site.Params.env "production")) -}}
+    {{- $sizes := slice 480 720 1440 -}}
+    {{- $srcsetWebp := slice -}}
+    {{- range $sizes }}
+      {{- if ge $res.Width . }}
+        {{- $r := $res.Resize (printf "%dx webp q85" .) }}
+        {{- $srcsetWebp = $srcsetWebp | append (printf "%s %dw" $r.RelPermalink .) }}
+      {{- end }}
+    {{- end }}
+    {{- if not $srcsetWebp }}
+      {{- $r := $res.Resize (printf "%dx webp q85" $res.Width) }}
+      {{- $srcsetWebp = $srcsetWebp | append (printf "%s %dw" $r.RelPermalink $res.Width) }}
+    {{- end }}
+    {{- $fw := 720 }}
+    {{- if lt $res.Width 720 }}{{- $fw = $res.Width }}{{- end }}
+    {{- $fallback := $res.Resize (printf "%dx" $fw) }}
+<picture>
+  <source type="image/webp" srcset="{{ delimit $srcsetWebp ", " }}" sizes="(min-width: 768px) 720px, 100vw">
+  <img src="{{ $fallback.RelPermalink }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" loading="lazy" decoding="async" style="max-width:100%;height:auto;">
+</picture>
+  {{- else -}}
+<img src="{{ $res.RelPermalink }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} width="{{ $res.Width }}" height="{{ $res.Height }}" loading="lazy" decoding="async" style="max-width:100%;height:auto;">
+  {{- end -}}
+{{- else -}}
+<img src="{{ $dest | safeURL }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" style="max-width:100%;height:auto;">
+{{- end -}}
+{{- end -}}

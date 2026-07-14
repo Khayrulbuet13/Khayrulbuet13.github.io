@@ -9,7 +9,7 @@ summary: "This paper demonstrates the use of standing surface acoustic waves to 
 cover:
     image: "paper8.png"
     alt: "Acoustofluidic vessel-on-a-chip engineering"
-    relative: false
+    relative: true
 editPost:
     URL: "http://dx.doi.org/10.1021/acsbiomaterials.3c00925"
     Text: "View Online"

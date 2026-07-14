@@ -8,7 +8,7 @@ summary: "This work presents a teacher-student ML framework using knowledge dist
 cover:
     image: "paper13.png"
     alt: "Real-Time Cell Sorting with FPGA-Accelerated Deep Learning"
-    relative: false
+    relative: true
 editPost:
     URL: "https://pubs.rsc.org/en/content/articlelanding/2025/dd/d5dd00345h"
     Text: "Digital Discovery"

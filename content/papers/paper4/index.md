@@ -9,7 +9,7 @@ summary: "This paper demonstrates that vessel-supported tumors exhibit increased
 cover:
     image: "paper4.png"
     alt: "Microfluidic droplet-assisted tumor fabrication"
-    relative: false
+    relative: true
 editPost:
     URL: "http://dx.doi.org/10.1021/acsami.2c23305"
     Text: "View Online"

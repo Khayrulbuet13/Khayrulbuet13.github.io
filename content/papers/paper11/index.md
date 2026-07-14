@@ -9,7 +9,7 @@ summary: "This paper demonstrates significant improvements in the mechanical str
 cover:
     image: "paper11.png"
     alt: "Polyamide nanocomposites with SWCNT"
-    relative: false
+    relative: true
 editPost:
     URL: "https://pubs.acs.org/doi/full/10.1021/acsaenm.4c00155"
     Text: "View Online"

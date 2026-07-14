@@ -9,7 +9,7 @@ summary: "This paper demonstrates significant mechanical property enhancements i
 cover:
     image: "paper6.png"
     alt: "Tensile deformation of CNT-PMMA composites"
-    relative: false
+    relative: true
 editPost:
     URL: "https://www.mdpi.com/2073-4360/15/13/2956"
     Text: "View Online"

@@ -10,7 +10,6 @@ tags: ["CV", "Resume", "Interactive CV"]
 
 **Location**: Bethlehem, PA, USA  
 **Email**: [khayrulbuet13@alum.lehigh.edu](mailto:khayrulbuet13@alum.lehigh.edu)  
-**Phone**: [+1 484 935 9363](tel:+14849359363)  
 **LinkedIn**: [linkedin.com/in/khayrulbuet13](https://www.linkedin.com/in/khayrulbuet13)  
 **GitHub**: [github.com/khayrulbuet13](https://github.com/khayrulbuet13)  
 **Google Scholar**: [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=8brPneYAAAAJ)

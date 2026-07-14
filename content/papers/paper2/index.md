@@ -9,7 +9,7 @@ summary: "This paper identifies conditions under which respiratory droplets deta
 cover:
     image: "paper2.png"
     alt: "Respiratory droplet resuspension"
-    relative: false
+    relative: true
 editPost:
     URL: "https://aip.scitation.org/doi/abs/10.1063/5.0050447"
     Text: "View Online"

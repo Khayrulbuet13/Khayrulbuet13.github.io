@@ -9,7 +9,7 @@ summary: "This paper identifies biomechanical conditions that enhance circulatin
 cover:
     image: "paper3.png"
     alt: "Microfluidic vessel-on-a-chip platform"
-    relative: false
+    relative: true
 editPost:
     URL: "http://dx.doi.org/10.1021/acs.analchem.2c02556"
     Text: "View Online"
@@ -21,7 +21,7 @@ editPost:
 ##### Download
 
 + [Paper](paper3.pdf)
-+ [Supplementary material](appendix3.pdf)
+<!-- + [Supplementary material](appendix3.pdf) -->
 <!-- + [Code and data](https://github.com/khayrulbuet13/microfluidic-vessel-on-a-chip) -->
 
 

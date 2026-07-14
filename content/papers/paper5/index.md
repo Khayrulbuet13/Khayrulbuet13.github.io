@@ -9,7 +9,7 @@ summary: "This paper provides design guidelines for nanochannel geometry and squ
 cover:
     image: "paper5.png"
     alt: "Molecular simulation of EV squeezing for drug loading"
-    relative: false
+    relative: true
 editPost:
     URL: "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d3cp00387f"
     Text: "View Online"

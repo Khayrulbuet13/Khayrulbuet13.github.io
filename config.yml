@@ -16,9 +16,6 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Projects
-          url: projects/
-          weight: 4
         - name: Blog
           url: https://medium.com/@khayrul-rules
           target: "_blank"
@@ -28,7 +25,9 @@ menu:
 params:
     description: "I'm a Postdoctoral Researcher at Lawrence Livermore National Laboratory (LLNL), working with the Nuclear Fusion Signal Processing and Control group on computer vision for real-time diagnostic systems. I enjoy the full CV and ML pipeline, from designing deep learning models to deploying them for high-performance, microsecond-level inference. I earned my Ph.D. in Mechanical Engineering from Lehigh University, where my research focused on machine-learning-based microfluidic computer vision and design optimization. Outside of work, I enjoy hiking, exploring new trails, and watching movies in my free time."
     author: Khayrul Islam
-    # googleAnalyticsID: "G-XXXXX"
+    # Google Analytics: enable via top-level `services.googleAnalytics.ID: G-XXXXX`
+    # (not a params key). Also relax the CSP in layouts/partials/extend_head.html
+    # (script-src + connect-src) or GA will be blocked.
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -41,14 +40,14 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
     comments: false
-    math: true
+    images: ["Khayrul.jpg"]
     profileMode:
           enabled: true
           title: Khayrul Islam # Bold name on homepage
@@ -62,8 +61,6 @@ params:
             #   url: CV.pdf
             - name: Papers
               url: papers/
-            - name: Projects
-              url: projects/
             - name: Tags
               url: tags/
             - name: Archive

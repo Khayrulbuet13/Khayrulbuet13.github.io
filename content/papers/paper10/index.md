@@ -9,7 +9,7 @@ summary: "This paper introduces a 3D vessel-tumor model to investigate immune ce
 cover:
     image: "paper10.png"
     alt: "Microphysiologically engineered vessel-tumor model"
-    relative: false
+    relative: true
 editPost:
     URL: "https://pubs.acs.org/doi/full/10.1021/acsami.4c00391"
     Text: "View Online"
@@ -21,7 +21,7 @@ editPost:
 ##### Download
 
 + [Paper](paper10.pdf)
-+ [Supplementary material](appendix10.pdf)
+<!-- + [Supplementary material](appendix10.pdf) -->
 <!-- + [Code and data](https://github.com/khayrulbuet13/vessel-tumor-immune-transport) -->
 
 

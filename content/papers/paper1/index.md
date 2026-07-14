@@ -9,7 +9,7 @@ summary: "This paper demonstrates significant mechanical property enhancements i
 cover:
     image: "paper1.png"
     alt: "CNT-polyoxymethylene composite"
-    relative: false
+    relative: true
 editPost:
     URL: "https://www.tandfonline.com/doi/abs/10.1080/08927022.2020.1711904"
     Text: "View Online"

@@ -9,7 +9,7 @@ summary: "This paper demonstrates the use of deep learning models to reliably di
 cover:
     image: "paper9.png"
     alt: "Deep learning-based classification of hematopoietic stem cells"
-    relative: false
+    relative: true
 editPost:
     URL: "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-024-03682-8"
     Text: "View Online"
