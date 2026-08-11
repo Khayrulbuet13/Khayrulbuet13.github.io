@@ -46,10 +46,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Force Pages source to GitHub Actions
-        run: gh api -X PUT "repos/${{ github.repository }}/pages" -f build_type=workflow
-        env:
-          GH_TOKEN: ${{ github.token }}
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
